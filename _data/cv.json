@@ -1,152 +1,90 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Dylan James-Kavanaugh",
+    "email": "djameskav@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://dylankavanaugh.github.io",
+    "summary": "Currently employed at Robotics Engineer \u2014 open to opportunities. Robotics Engineer \u2014 Controls, Autonomous Systems, Computer Vision",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "",
       "countryCode": "US",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "mattdamon1868",
+        "url": "https://github.com/mattdamon1868"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "dylan-james-kavanaugh",
+        "url": "https://www.linkedin.com/in/dylan-james-kavanaugh"
       }
     ]
   },
   "work": [],
-  "education": [
-    {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
-    }
-  ],
+  "education": [],
   "skills": [],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Servos for Local Map Exploration Onboard Nonholonomic Vehicles for Extremum Seeking",
+      "publisher": "IEEE Transactions on Control Systems Technology",
+      "releaseDate": "2026-01-01",
+      "website": null,
+      "summary": "A source-seeking controller for a nonholonomic vehicle that distributes local map exploration to a servo-actuated sensor, achieving faster convergence to the source than fixed-sensor approaches."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
+      "course": "Robot Modeling & Control",
+      "institution": "San Diego State University, Mechanical Engineering",
+      "date": "2023-09-01",
+      "role": "Undergraduate/graduate course",
       "description": ""
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
+      "course": "Systems Modeling & Analysis",
+      "institution": "San Diego State University, Mechanical Engineering",
+      "date": "2024-01-01",
+      "role": "Undergraduate course",
       "description": ""
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
+      "name": "Thesis: TurtleBot3 Sensor-Actuated Source Seeking",
       "category": "portfolio",
       "date": "",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Servo-actuated extremum seeking control for source localization on a nonholonomic robot.<br/><img src='/images/rotating-frame.png'>"
+    },
+    {
+      "name": "Optimization Path Planning",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "Linear programming (duality + simplex) applied to constrained robot path planning.<br/><img src='/images/500x300.png'>"
+    },
+    {
+      "name": "How Bad Weather Affects the Safety of Autonomous Driving",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "A research review of deep learning approaches to camera-based perception under adverse weather."
+    },
+    {
+      "name": "Pet Waste Collector Robot",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "Undergrad capstone: autonomous yard navigation, CNN-based waste detection, and a custom pickup mechanism.<br/><img src='/images/pet_robot.jpeg'>"
     }
   ]
 }
