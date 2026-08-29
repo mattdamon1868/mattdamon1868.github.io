@@ -6,7 +6,7 @@ permalink: /publication/2026-01-01-servos-for-local-map-exploration
 excerpt: 'A source-seeking controller for a nonholonomic vehicle that distributes local map exploration to a servo-actuated sensor, achieving faster convergence to the source than fixed-sensor approaches.'
 date: 2026-01-01
 venue: 'IEEE Transactions on Control Systems Technology'
-paperurl:https://ieeexplore.ieee.org/abstract/document/11625974
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/11625974'
 citation: 'James-Kavanaugh, D., McNamee, P. (2026). &quot;Servos for Local Map Exploration Onboard Nonholonomic Vehicles for Extremum Seeking.&quot; <i>IEEE Transactions on Control Systems Technology</i>.'
 ---
 

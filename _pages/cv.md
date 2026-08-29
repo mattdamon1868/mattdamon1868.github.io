@@ -13,6 +13,12 @@ redirect_from:
 
 <embed src="{{ base_path }}/files/djk_resume.pdf" type="application/pdf" width="100%" height="1000px" />
 
+Work Experience
+======
+  <ul>{% for post in site.experience reversed %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
