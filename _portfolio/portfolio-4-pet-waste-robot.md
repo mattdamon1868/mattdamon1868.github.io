@@ -14,6 +14,5 @@ My focus was the waste pickup mechanism and the computer vision detection pipeli
 
 <img src='/images/pet1.jpeg' width='300'>
 
-<img src='/images/pet2.jpg' width='300'>
 
 <video src='/images/pet3_mov.MOV' width='300' controls></video>

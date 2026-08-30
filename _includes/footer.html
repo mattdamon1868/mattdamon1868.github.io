@@ -1,23 +1,107 @@
 {% include base_path %}
 
-<!-- {% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %} -->
-<!-- <div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+<div class="page__footer-follow">
+  <ul class="author__urls social-icons social-icons--row">
+    <li><strong>Let's Connect</strong></li>
+
+    <!-- Font Awesome icons / Repositories and software development -->
+    {% if site.author.bitbucket %}
+      <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}" aria-label="Bitbucket"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i><span class="sr-only">Bitbucket</span></a></li>
+    {% endif %}
+    {% if site.author.codepen %}
+      <li><a href="https://codepen.io/{{ site.author.codepen }}" aria-label="CodePen"><i class="fab fa-fw fa-codepen" aria-hidden="true"></i><span class="sr-only">CodePen</span></a></li>
+    {% endif %}
+    {% if site.author.dribbble %}
+      <li><a href="https://dribbble.com/{{ site.author.dribbble }}" aria-label="Dribbble"><i class="fab fa-fw fa-dribbble" aria-hidden="true"></i><span class="sr-only">Dribbble</span></a></li>
     {% endif %}
     {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li><a href="https://github.com/{{ site.author.github }}" aria-label="GitHub"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="sr-only">GitHub</span></a></li>
     {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+    {% if site.author.kaggle %}
+      <li><a href="https://kaggle.com/{{ site.author.kaggle }}" aria-label="Kaggle"><i class="fab fa-fw fa-kaggle" aria-hidden="true"></i><span class="sr-only">Kaggle</span></a></li>
     {% endif %}
-    {% if site.atom_feed.hide != true %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% if site.author.stackoverflow %}
+      <li><a href="https://www.stackoverflow.com/users/{{ site.author.stackoverflow }}" aria-label="Stackoverflow"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i><span class="sr-only">Stackoverflow</span></a></li>
+    {% endif %}
+
+    <!-- Font Awesome icons / Social media -->
+    {% if site.author.artstation %}
+      <li><a href="https://www.artstation.com/{{ site.author.artstation }}" aria-label="Artstation"><i class="fab fa-fw fa-artstation" aria-hidden="true"></i><span class="sr-only">Artstation</span></a></li>
+    {% endif %}
+    {% if site.author.bluesky %}
+      <li><a href="https://bsky.app/profile/{{ site.author.bluesky }}" aria-label="Bluesky"><i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span class="sr-only">Bluesky</span></a></li>
+    {% endif %}
+    {% if site.author.facebook %}
+      <li><a href="https://www.facebook.com/{{ site.author.facebook }}" aria-label="Facebook"><i class="fab fa-fw fa-facebook-f" aria-hidden="true"></i><span class="sr-only">Facebook</span></a></li>
+    {% endif %}
+    {% if site.author.flickr %}
+      <li><a href="https://www.flickr.com/{{ site.author.flickr }}" aria-label="Flickr"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i><span class="sr-only">Flickr</span></a></li>
+    {% endif %}
+    {% if site.author.foursquare %}
+      <li><a href="https://foursquare.com/{{ site.author.foursquare }}" aria-label="Foursquare"><i class="fab fa-fw fa-foursquare" aria-hidden="true"></i><span class="sr-only">Foursquare</span></a></li>
+    {% endif %}
+    {% if site.author.goodreads %}
+      <li><a href="https://www.goodreads.com/{{ site.author.goodreads }}" aria-label="Goodreads"><i class="fab fa-fw fa-goodreads" aria-hidden="true"></i><span class="sr-only">Goodreads</span></a></li>
+    {% endif %}
+    {% if site.author.google_plus %}
+      <li><a href="https://plus.google.com/+{{ site.author.google_plus }}" aria-label="Google+"><i class="fab fa-fw fa-google-plus-g" aria-hidden="true"></i><span class="sr-only">Google+</span></a></li>
+    {% endif %}
+    {% if site.author.keybase %}
+      <li><a href="https://keybase.io/{{ site.author.keybase }}" aria-label="Keybase"><i class="fas fa-fw fa-key" aria-hidden="true"></i><span class="sr-only">Keybase</span></a></li>
+    {% endif %}
+    {% if site.author.instagram %}
+      <li><a href="https://instagram.com/{{ site.author.instagram }}" aria-label="Instagram"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a></li>
+    {% endif %}
+    {% if site.author.lastfm %}
+      <li><a href="https://last.fm/user/{{ site.author.lastfm }}" aria-label="Last.fm"><i class="fab fa-fw fa-lastfm" aria-hidden="true"></i><span class="sr-only">Last.fm</span></a></li>
+    {% endif %}
+    {% if site.author.linkedin %}
+      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a></li>
+    {% endif %}
+    {% if site.author.mastodon %}
+      <li><a href="{{ site.author.mastodon }}" aria-label="Mastodon"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i><span class="sr-only">Mastodon</span></a></li>
+    {% endif %}
+    {% if site.author.medium %}
+      <li><a href="{{ site.author.medium }}" aria-label="Medium"><i class="fab fa-fw fa-medium" aria-hidden="true"></i><span class="sr-only">Medium</span></a></li>
+    {% endif %}
+    {% if site.author.pinterest %}
+      <li><a href="https://www.pinterest.com/{{ site.author.pinterest }}" aria-label="Pinterest"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i><span class="sr-only">Pinterest</span></a></li>
+    {% endif %}
+    {% if site.author.soundcloud %}
+      <li><a href="https://soundcloud.com/{{ site.author.soundcloud }}" aria-label="Soundcloud"><i class="fab fa-fw fa-soundcloud" aria-hidden="true"></i><span class="sr-only">Soundcloud</span></a></li>
+    {% endif %}
+    {% if site.author.steam %}
+      <li><a href="https://steamcommunity.com/id/{{ site.author.steam }}" aria-label="Steam"><i class="fab fa-fw fa-steam" aria-hidden="true"></i><span class="sr-only">Steam</span></a></li>
+    {% endif %}
+    {% if site.author.telegram %}
+      <li><a href="{{ site.author.telegram }}" aria-label="Telegram"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i><span class="sr-only">Telegram</span></a></li>
+    {% endif %}
+    {% if site.author.tumblr %}
+      <li><a href="https://{{ site.author.tumblr }}.tumblr.com" aria-label="Tumblr"><i class="fab fa-fw fa-tumblr" aria-hidden="true"></i><span class="sr-only">Tumblr</span></a></li>
+    {% endif %}
+    {% if site.author.twitter %}
+      <li><a href="https://twitter.com/{{ site.author.twitter }}" aria-label="X (formerly Twitter)"><i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span class="sr-only">X (formerly Twitter)</span></a></li>
+    {% endif %}
+    {% if site.author.vine %}
+      <li><a href="https://vine.co/u/{{ site.author.vine }}" aria-label="Vine"><i class="fab fa-fw fa-vine" aria-hidden="true"></i><span class="sr-only">Vine</span></a></li>
+    {% endif %}
+    {% if site.author.weibo %}
+      <li><a href="https://www.weibo.com/{{ site.author.weibo }}" aria-label="Weibo"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i><span class="sr-only">Weibo</span></a></li>
+    {% endif %}
+    {% if site.author.wikipedia %}
+      <li><a href="https://en.wikipedia.org/wiki/User:{{ site.author.wikipedia }}" aria-label="Wikipedia"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i><span class="sr-only">Wikipedia</span></a></li>
+    {% endif %}
+    {% if site.author.xing %}
+      <li><a href="https://www.xing.com/profile/{{ site.author.xing }}" aria-label="XING"><i class="fab fa-fw fa-xing" aria-hidden="true"></i><span class="sr-only">XING</span></a></li>
+    {% endif %}
+    {% if site.author.youtube %}
+      <li><a href="https://www.youtube.com/@{{ site.author.youtube }}" aria-label="YouTube"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="sr-only">YouTube</span></a></li>
+    {% endif %}
+    {% if site.author.zhihu %}
+      <li><a href="https://www.zhihu.com/people/{{ site.author.zhihu }}" aria-label="Zhihu"><i class="fab fa-fw fa-zhihu" aria-hidden="true"></i><span class="sr-only">Zhihu</span></a></li>
     {% endif %}
   </ul>
 </div>
-{% endif %} -->
 
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
