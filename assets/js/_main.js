@@ -170,6 +170,7 @@ $(document).ready(function () {
     }}, 250);
   var didResize = false;
   bumpIt();
+  $(window).on("load", bumpIt);
 
   // Follow menu drop down
   $(".author__urls-wrapper button").on("click", function () {
