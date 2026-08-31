@@ -4,9 +4,9 @@ excerpt: "Servo-actuated extremum seeking control for source localization on a n
 collection: portfolio
 ---
 
-My master's thesis explored applying extremum seeking control (ESC) — an adaptive control approach — to real robots and simulations, with a focus on source-seeking behavior.
+My master's thesis explored applying extremum seeking control (ESC) an adaptive control approach to real robots and simulations, with a focus on source-seeking behavior.
 
-The robot used was a TurtleBot3 from Robotis, a nonholonomic robot capable of moving forward along the x-axis and rotating about the z-axis. Its modular design allowed for custom additions, including an extra servo motor for a rotating sensor. This sensor moves back and forth to estimate the location of a signal source — light or sound in our tests — enabling local exploration that computes the derivative of the signal and perturbs the vehicle's motion toward the source.
+The robot used was a TurtleBot3 from Robotis, a nonholonomic robot capable of moving forward along the x-axis and rotating about the z-axis. Its modular design allowed for custom additions, including an extra servo motor for a rotating sensor. This sensor moves back and forth to estimate the location of a signal source light or sound in our tests enabling local exploration that computes the derivative of the signal and perturbs the vehicle's motion toward the source.
 
 The robot has no prior knowledge of the exact source location; it only receives gradient estimates derived from sensor data as it approaches within roughly 0.5 meters of the source.
 
@@ -16,7 +16,11 @@ Using parameters tuned in simulation, the robot successfully converged to the so
 
 **Skills:** Git, Python, C++, autonomous systems, adaptive control, optimization, robotics, ROS2, leadership
 
-<img src='/images/light-source.png'>
-<img src='/images/rotating-frame.png'>
+<div style="display: flex; flex-wrap: wrap; gap: 16px;">
+  <img src='/images/light-source.png' style="width: 280px; height: 210px; object-fit: cover;">
+  <img src='/images/rotating-frame.png' style="width: 280px; height: 210px; object-fit: cover;">
+</div>
 
-[Watch the demo video](https://www.youtube.com/watch?v=K2YwE-z4ytc)
+[Watch Demo w/ Light source](https://www.youtube.com/watch?v=K2YwE-z4ytc)
+
+[Watch Demo w/ Acoustic Source](https://www.youtube.com/watch?v=Emvdfo50mU4)

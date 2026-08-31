@@ -17,5 +17,7 @@ I led troubleshooting and resolution of startup issues, using advanced diagnosti
 
 I also led instructional sessions for subcontractors on electrical and mechanical system installations and mentored junior field service representatives in technical skills, customer service, and troubleshooting techniques.
 
-<img src='/images/control_panel.png'>
-<img src='/images/honeywell-controller.png'>
+<div style="display: flex; flex-wrap: wrap; gap: 16px;">
+  <img src='/images/control_panel.png' style="width: 280px; height: 210px; object-fit: cover;">
+  <img src='/images/honeywell-controller.png' style="width: 280px; height: 210px; object-fit: cover;">
+</div>

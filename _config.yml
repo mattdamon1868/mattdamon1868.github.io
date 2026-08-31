@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"
   bio              : "Robotics Engineer Controls, Autonomous Systems, Computer Vision"
   location         : "Agoura Hills, CA"
-  employer         : "Seeking opportunities in robotics"
+  employer         : "Seeking Robotics Oppor."
   uri              : # URL
   email            : "djameskav@gmail.com"
 
@@ -283,7 +283,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
@@ -292,7 +292,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:

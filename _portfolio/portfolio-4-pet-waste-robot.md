@@ -10,8 +10,9 @@ My focus was the waste pickup mechanism and the computer vision detection pipeli
 
 **Skills:** Teamwork, CAD, coding, Python, deep learning, computer vision, fabrication, electronics, debugging
 
-<img src='/images/pet_robot.jpeg' width='300'>
-
-<img src='/images/pet1.jpeg' width='300'>
+<div style="display: flex; flex-wrap: wrap; gap: 16px;">
+  <img src='/images/pet_robot.jpeg' style="width: 280px; height: 210px; object-fit: cover;">
+  <img src='/images/pet1.jpeg' style="width: 280px; height: 210px; object-fit: cover;">
+</div>
 
 <video src='/images/pet3_mov.MOV' width='300' controls></video>
