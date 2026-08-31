@@ -1,6 +1,6 @@
 ---
 title: "Pet Waste Collector Robot"
-excerpt: "Undergrad capstone: autonomous yard navigation, CNN-based waste detection, and a custom pickup mechanism.<br/><img src='/images/pet_robot.jpeg' width='200'>"
+excerpt: "Undergrad capstone: autonomous yard navigation, CNN-based waste detection, and a custom pickup mechanism."
 collection: portfolio
 ---
 
@@ -11,8 +11,8 @@ My focus was the waste pickup mechanism and the computer vision detection pipeli
 **Skills:** Teamwork, CAD, coding, Python, deep learning, computer vision, fabrication, electronics, debugging
 
 <div style="display: flex; flex-wrap: wrap; gap: 16px;">
-  <img src='/images/pet_robot.jpeg' style="width: 280px; height: 210px; object-fit: cover;">
-  <img src='/images/pet1.jpeg' style="width: 280px; height: 210px; object-fit: cover;">
+  <img src='/images/pet_robot.jpeg' style="width: 280px; height: 210px; object-fit: contain;">
+  <img src='/images/pet1.jpeg' style="width: 280px; height: 210px; object-fit: contain;">
 </div>
 
 <video src='/images/pet3_mov.MOV' width='300' controls></video>

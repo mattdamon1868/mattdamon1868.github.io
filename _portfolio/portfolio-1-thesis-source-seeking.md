@@ -1,6 +1,6 @@
 ---
 title: "Thesis: TurtleBot3 Sensor-Actuated Source Seeking"
-excerpt: "Servo-actuated extremum seeking control for source localization on a nonholonomic robot.<br/><img src='/images/rotating-frame.png'>"
+excerpt: "Servo-actuated extremum seeking control for source localization on a nonholonomic robot."
 collection: portfolio
 ---
 
@@ -17,8 +17,8 @@ Using parameters tuned in simulation, the robot successfully converged to the so
 **Skills:** Git, Python, C++, autonomous systems, adaptive control, optimization, robotics, ROS2, leadership
 
 <div style="display: flex; flex-wrap: wrap; gap: 16px;">
-  <img src='/images/light-source.png' style="width: 280px; height: 210px; object-fit: cover;">
-  <img src='/images/rotating-frame.png' style="width: 280px; height: 210px; object-fit: cover;">
+  <img src='/images/light-source.png' style="width: 280px; height: 210px; object-fit: contain;">
+  <img src='/images/rotating-frame.png' style="width: 280px; height: 210px; object-fit: contain;">
 </div>
 
 [Watch Demo w/ Light source](https://www.youtube.com/watch?v=K2YwE-z4ytc)

@@ -1,0 +1,151 @@
+---
+layout: single
+title: "Timeline"
+permalink: /timeline/
+author_profile: true
+---
+
+<style>
+  .dk-timeline {
+    position: relative;
+    margin: 2em 0;
+  }
+
+  .dk-timeline::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--global-border-color);
+    transform: translateX(-50%);
+  }
+
+  .dk-timeline__item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 72px 1fr;
+    column-gap: 24px;
+    align-items: start;
+    padding-bottom: 2.4em;
+  }
+
+  .dk-timeline__item:last-child {
+    padding-bottom: 0;
+  }
+
+  .dk-timeline__logo {
+    grid-column: 2;
+    justify-self: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--global-bg-color);
+    border: 2px solid var(--global-link-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .dk-timeline__logo img {
+    max-width: 88%;
+    max-height: 72%;
+    object-fit: contain;
+  }
+
+  .dk-timeline__logo--empty {
+    width: 12px;
+    height: 12px;
+    border: 2px solid var(--global-link-color);
+    background: var(--global-bg-color);
+  }
+
+  .dk-timeline__card {
+    background: var(--global-bg-color);
+  }
+
+  .dk-timeline__item:nth-child(odd) .dk-timeline__card {
+    grid-column: 1;
+    text-align: right;
+  }
+
+  .dk-timeline__item:nth-child(even) .dk-timeline__card {
+    grid-column: 3;
+    text-align: left;
+  }
+
+  .dk-timeline__year {
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--global-link-color);
+    text-transform: uppercase;
+    margin: 0 0 0.2em;
+  }
+
+  .dk-timeline__title {
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .dk-timeline__venue {
+    font-style: italic;
+    color: var(--global-text-color-light);
+    margin: 0 0 0.3em;
+  }
+
+  .dk-timeline__desc {
+    margin: 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    .dk-timeline::before {
+      left: 6px;
+    }
+
+    .dk-timeline__item {
+      grid-template-columns: 12px 1fr;
+      column-gap: 16px;
+    }
+
+    .dk-timeline__logo {
+      grid-column: 1;
+      width: 40px;
+      height: 40px;
+      margin-left: -14px;
+    }
+
+    .dk-timeline__logo--empty {
+      width: 12px;
+      height: 12px;
+      margin-left: 0;
+    }
+
+    .dk-timeline__item:nth-child(odd) .dk-timeline__card,
+    .dk-timeline__item:nth-child(even) .dk-timeline__card {
+      grid-column: 2;
+      text-align: left;
+    }
+  }
+</style>
+
+<div class="dk-timeline">
+  {% for item in site.data.timeline %}
+  <div class="dk-timeline__item">
+    {% if item.image %}
+      <div class="dk-timeline__logo"><img src="{{ item.image }}" alt="{{ item.venue }} logo"></div>
+    {% else %}
+      <div class="dk-timeline__logo dk-timeline__logo--empty"></div>
+    {% endif %}
+    <div class="dk-timeline__card">
+      <p class="dk-timeline__year">{{ item.year }}</p>
+      <p class="dk-timeline__title">{{ item.title }}</p>
+      <p class="dk-timeline__venue">{{ item.venue }}</p>
+      <p class="dk-timeline__desc">{{ item.description }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
