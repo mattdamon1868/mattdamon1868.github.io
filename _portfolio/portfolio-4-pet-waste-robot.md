@@ -1,6 +1,6 @@
 ---
 title: "Pet Waste Collector Robot"
-excerpt: "Undergrad capstone: autonomous yard navigation, CNN-based waste detection, and a custom pickup mechanism.<br/><img src='/images/pet_robot.jpeg'>"
+excerpt: "Undergrad capstone: autonomous yard navigation, CNN-based waste detection, and a custom pickup mechanism.<br/><img src='/images/pet_robot.jpeg' width='200'>"
 collection: portfolio
 ---
 
