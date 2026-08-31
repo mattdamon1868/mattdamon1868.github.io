@@ -101,5 +101,9 @@
     a {
       white-space: nowrap;
     }
+
+    .sr-only {
+      pointer-events: none;
+    }
   }
 }
