@@ -17,3 +17,9 @@ One of my key contributions was designing and implementing an image recognition 
 This hands-on setup demonstrated the synergy between computer vision and robotics while giving students a practical, scalable way to experiment with deep learning in a robotics context.
 
 **Skills:** Python, programming, computer vision, deep learning, ROS2
+
+<div style="display: flex; flex-wrap: wrap; gap: 16px;">
+  <img src='/images/security_robot.png' style="width: 280px; height: 210px; object-fit: contain;">
+  <img src='/images/robber.png' style="width: 280px; height: 210px; object-fit: contain;">
+  <img src='/images/robot_robber.png' style="width: 280px; height: 210px; object-fit: contain;">
+</div>
