@@ -16,13 +16,13 @@ main:
 
   # - title: "Teaching"
   #   url: /teaching/
-    
-  - title: "Portfolio"
-    url: /portfolio/
         
   - title: "Publications"
-    url: /publications/
-        
+    url: /publications/   
+
+  - title: "Portfolio"
+    url: /portfolio/
+    
   - title: "Blog Posts"
     url: /year-archive/
 
