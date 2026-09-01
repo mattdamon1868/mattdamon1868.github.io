@@ -12,7 +12,7 @@ The robot has no prior knowledge of the exact source location; it only receives 
 
 The project spanned three phases: theoretical research and analysis, simulation in Gazebo/ROS2 to validate the theory, and physical robot construction for real-world testing. Custom hardware (a top layer and rotating arm for the sensor) was modeled in Onshape and 3D-printed on a Bambu H2S. The physical robot used a Raspberry Pi 4 for onboard compute, with a microphone and photoresistor as sensors.
 
-Using parameters tuned in simulation, the robot successfully converged to the source based on both light and sound detection in real-world testing — the basis for the resulting [publication](/publications/).
+Using parameters tuned in simulation, the robot successfully converged to the source based on both light and sound detection in real-world testing the basis for the resulting [publication](/publications/).
 
 **Skills:** Git, Python, C++, autonomous systems, adaptive control, optimization, robotics, ROS2, leadership
 
