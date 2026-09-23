@@ -6,7 +6,8 @@ permalink: /experience/2026-mercor-intelligence
 venue: "Mercor Intelligence"
 location: "San Francisco, CA (remote)"
 date: 2026-05-01
-start_date: 2026-08-01
+start_date: 2026-05-01
+end_date: 2026-08-01
 excerpt: "Providing domain expertise to support AI model improvement for a top AI lab."
 ---
 
