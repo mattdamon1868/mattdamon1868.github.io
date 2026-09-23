@@ -58,8 +58,14 @@
   description: "Deployed imaging and network systems to automate a marble fabrication workflow."
   image: "/images/logos/zeolla.png"
 
-- year: "2026 – Present"
+- year: "2026 – 2026"
   title: "Independent Contractor"
   venue: "Mercor Intelligence"
   description: "Providing domain expertise to support AI model improvement for a top AI lab."
   image: "/images/logos/mercor.png"
+
+- year: "2026 – Present"
+  title: "Autonomy Engineer"
+  venue: "Clear Blue Sea"
+  description: "Building the Autonomy stack for autonomous surface vehicles cleaning our waterways."
+  image: "/images/logos/clear-blue-sea.png"
