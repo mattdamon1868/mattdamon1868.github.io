@@ -1,12 +1,12 @@
 ---
 title: "Systems Engineer"
 collection: experience
-type: "Systems Engineer"
+# type: "Systems Engineer"
 permalink: /experience/2025-2026-zeolla-marble-systems-engineer
 venue: "Zeolla Marble"
 location: "Westlake Village, CA"
 date: 2025-05-01
-start_date: 2025-05-01
+start_date: 2025-08-01
 end_date: 2026-04-01
 excerpt: "Deployed imaging and network systems to automate a marble fabrication workflow, cutting design iteration time by 40%."
 ---

@@ -1,13 +1,13 @@
 ---
 title: "Graduate Research Engineer"
 collection: experience
-type: "Graduate Research Engineer"
+# type: "Graduate Research Engineer"
 permalink: /experience/2021-2024-sdsu-graduate-research-assistant
 venue: "San Diego State University, DSIM Lab"
 location: "San Diego, CA"
 date: 2021-08-01
 start_date: 2021-08-01
-end_date: 2024-05-01
+end_date: 2025-05-01
 excerpt: "Led development of a servo-actuated extremum seeking control approach for autonomous source-seeking on nonholonomic robots."
 ---
 

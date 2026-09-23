@@ -1,12 +1,13 @@
 ---
-title: "Course Designer (Freelance)"
+title: "Robotics Educator"
 collection: experience
-type: "Course Designer (Freelance)"
+# type: "Course Designer (Freelance)"
 permalink: /experience/course-designer-the-construct
 venue: "The Construct"
 location: "Remote"
-date: 2022-01-01
-start_date: 2022-01-01
+date: 2024-01-01
+start_date: 2024-01-01
+end_date: 2024-12-01
 excerpt: "Designed ROS2/Gazebo robotics curriculum, including a CNN-based perception pipeline for a simulated security robot."
 ---
 

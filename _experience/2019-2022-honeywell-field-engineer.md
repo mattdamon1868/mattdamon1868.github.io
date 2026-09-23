@@ -1,7 +1,7 @@
 ---
 title: "Field Engineer II"
 collection: experience
-type: "Field Engineer II"
+# type: "Field Engineer II"
 permalink: /experience/2019-2022-honeywell-field-engineer
 venue: "Honeywell Process Solutions"
 location: "San Bruno, CA"
